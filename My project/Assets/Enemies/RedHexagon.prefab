@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1
-  deathEffect: {fileID: 6499617423663418396, guid: e5fe8db7614ffa3438bb4c2cadb7d327, type: 3}
+  deathEffect: {fileID: 6499617423663418396, guid: 6a61490c15171ec4a81cab5952b2c555, type: 3}
 --- !u!114 &2840187689667975098
 MonoBehaviour:
   m_ObjectHideFlags: 0

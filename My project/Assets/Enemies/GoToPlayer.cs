@@ -16,5 +16,6 @@ public class GoToPlayer : MonoBehaviour
 
     void Update() {
         thisTransform.position = Vector3.MoveTowards(thisTransform.position, playerTransform.position, speed * Time.deltaTime);
+        if (thisTransform.position == playerTransform.position) this.gameObject.GetComponent<GetShotDieScript>().Die();
     }
 }
